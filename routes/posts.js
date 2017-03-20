@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var PostModel = require('../models/posts');
 
 var checkLogin = require('../middlewares/check').checkLogin;
 
