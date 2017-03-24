@@ -39,7 +39,7 @@ module.exports = {
   },
 
   // 通过文章 id 获取该文章下留言数
-  getCommentsCounts: function getCommentsCounts(postId) {
+  getCommentsCount: function getCommentsCount(postId) {
   	return Comment.count({ postId: postId}).exec();
   }
 };
